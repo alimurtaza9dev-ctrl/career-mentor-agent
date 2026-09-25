@@ -106,3 +106,17 @@ Portfolio project ideas
 Interview preparation
 AI and Machine Learning career guidance
 Technology and skill recommendations
+
+💡 Example Questions
+
+You can ask the Career Mentor Agent questions such as:
+
+What skills should I learn to become a Data Scientist?
+
+Create a 6-month roadmap for becoming a Machine Learning Engineer.
+
+Which Python projects should I build for my portfolio?
+
+What certifications are useful for a beginner in AI and Machine Learning?
+
+How should I prepare for a Data Science internship interview?
