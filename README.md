@@ -6,7 +6,7 @@ Career Mentor Agent provides conversational career guidance to help users explor
 
 ## 🚀 Live Demo
 
-👉 [Try Career Mentor Agent](YOUR-STREAMLIT-URL-HERE)
+👉 [Try Career Mentor Agent](https://career-mentor-agentbranchmainmainfileapppy-njkahyn6mdbqz4phstd.streamlit.app/)
 
 ## ✨ Features
 
@@ -72,3 +72,11 @@ Career Mentor Agent provides conversational career guidance to help users explor
                     │ Career Guidance │
                     │    Response     │
                     └─────────────────┘
+
+📸 Application Preview
+Career Mentor Agent
+
+AI Career Guidance
+
+📁 Project Structure
+
