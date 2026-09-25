@@ -81,3 +81,15 @@ Career Mentor Agent
 AI Career Guidance
 
 📁 Project Structure
+
+career-mentor-agent/
+│
+├── app.py
+├── prompts.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+└── screenshots/
+    ├── career-mentor-home.png
+    └── career-mentor-response.png
