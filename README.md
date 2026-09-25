@@ -161,4 +161,15 @@ Example:
 
 COPILOT_GITHUB_TOKEN = "YOUR_TOKEN"
 
+🌐 Deployment
+
+The application is deployed using Streamlit Community Cloud.
+
+The deployment process includes:
+
+GitHub repository
+Streamlit application
+Python dependencies
+Secure authentication through Streamlit Secrets
+
 Never commit authentication tokens, API keys, passwords, or other sensitive credentials to GitHub.
