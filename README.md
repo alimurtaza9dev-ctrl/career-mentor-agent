@@ -73,10 +73,5 @@ Career Mentor Agent provides conversational career guidance to help users explor
                     │    Response     │
                     └─────────────────┘
 
-📸 Application Preview
-Career Mentor Agent
 
-AI Career Guidance
-
-📁 Project Structure
 
