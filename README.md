@@ -113,6 +113,20 @@ You can ask the Career Mentor Agent questions such as:
 
 What skills should I learn to become a Data Scientist?
 
+🎓 Microsoft Frontier Program
+
+This project was developed as part of the Microsoft Frontier Program – Day 4 Agent-a-Thon.
+
+The project provided hands-on experience with:
+
+AI agent development
+GitHub Copilot SDK
+Python asynchronous programming
+Streamlit application development
+Authentication and secrets management
+Git and GitHub
+Cloud deployment
+
 Create a 6-month roadmap for becoming a Machine Learning Engineer.
 
 Which Python projects should I build for my portfolio?
