@@ -173,3 +173,39 @@ Python dependencies
 Secure authentication through Streamlit Secrets
 
 Never commit authentication tokens, API keys, passwords, or other sensitive credentials to GitHub.
+
+🔮 Future Improvements
+
+Potential future enhancements include:
+
+📄 Resume analysis
+💼 Job recommendation features
+📊 Personalized skill-gap analysis
+🎤 Mock interview sessions
+📈 Career progress tracking
+🎯 More specialized career paths
+🔗 Integration with job platforms
+👤 Personalized user profiles
+📚 Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+Building AI-powered applications
+Working with the GitHub Copilot SDK
+Integrating AI models into Python applications
+Managing asynchronous Python code
+Building interactive Streamlit interfaces
+Managing authentication and secrets
+Using Git and GitHub
+Deploying applications to the cloud
+👨‍💻 Author
+
+Ali Murtaza
+
+Computer Science Student | AI & Data Science Enthusiast
+
+GitHub: @alimurtaza9dev-ctrl
+
+🙏 Acknowledgment
+
+Developed as part of the Microsoft Frontier Program – Day 4 Agent-a-Thon.
