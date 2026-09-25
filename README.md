@@ -2,212 +2,356 @@
 
 An AI-powered career guidance assistant built with **Python**, **Streamlit**, and the **GitHub Copilot SDK**.
 
-Career Mentor Agent provides conversational career guidance to help users explore career paths, build learning roadmaps, discover certifications and projects, and prepare for interviews.
+Career Mentor Agent provides conversational career guidance to help users explore career paths, build personalized learning roadmaps, discover certifications and portfolio projects, and prepare for technical interviews.
+
+---
 
 ## 🚀 Live Demo
 
-👉 [Try Career Mentor Agent](https://career-mentor-agentbranchmainmainfileapppy-njkahyn6mdbqz4phstd.streamlit.app/)
+👉 **[Try Career Mentor Agent](https://career-mentor-agentbranchmainmainfileapppy-njkahyn6mdbqz4phstd.streamlit.app/)**
+
+---
 
 ## ✨ Features
 
-- 💬 Conversational career guidance
-- 🗺️ Learning roadmap generation
-- 🎓 Certification suggestions
-- 💻 Portfolio project recommendations
-- 🎯 Interview preparation
-- 🧠 AI-powered career advice
-- 💾 Conversation history during the session
-- 🌙 Streamlit light and dark themes
-- ⚡ Fast interactive chat interface
+* 💬 **Conversational Career Guidance**
+* 🗺️ **Personalized Learning Roadmaps**
+* 🎓 **Certification Recommendations**
+* 💻 **Portfolio Project Ideas**
+* 🎯 **Interview Preparation**
+* 🧠 **AI-Powered Career Advice**
+* 💾 **Session-Based Conversation History**
+* 🌙 **Light & Dark Streamlit Themes**
+* ⚡ **Fast Interactive Chat Interface**
+
+---
 
 ## 🛠️ Technologies
 
-| Technology | Purpose |
-|------------|---------|
-| Python | Application development |
-| Streamlit | Web interface |
-| GitHub Copilot SDK | AI agent integration |
-| GPT-5.4 | AI-powered responses |
-| AsyncIO | Asynchronous operations |
-| Git & GitHub | Version control and collaboration |
+| Technology                | Purpose                           |
+| ------------------------- | --------------------------------- |
+| 🐍 **Python**             | Application development           |
+| 🎨 **Streamlit**          | Interactive web interface         |
+| 🤖 **GitHub Copilot SDK** | AI agent integration              |
+| 🧠 **GPT-5.4**            | AI-powered responses              |
+| ⚡ **AsyncIO**             | Asynchronous programming          |
+| 🔧 **Git & GitHub**       | Version control and collaboration |
+
+---
 
 ## 🏗️ Architecture
 
 ```text
-                    ┌─────────────────┐
-                    │      User       │
-                    └────────┬────────┘
-                             │
-                             ▼
-                    ┌─────────────────┐
-                    │    Streamlit    │
-                    │   Chat UI       │
-                    └────────┬────────┘
-                             │
-                             ▼
-                    ┌─────────────────┐
-                    │  Conversation   │
-                    │     History     │
-                    └────────┬────────┘
-                             │
-                             ▼
-                    ┌─────────────────┐
-                    │  System Prompt  │
-                    │ Career Mentor   │
-                    └────────┬────────┘
-                             │
-                             ▼
-                    ┌─────────────────┐
-                    │ GitHub Copilot  │
-                    │      SDK        │
-                    └────────┬────────┘
-                             │
-                             ▼
-                    ┌─────────────────┐
-                    │     GPT-5.4     │
-                    └────────┬────────┘
-                             │
-                             ▼
-                    ┌─────────────────┐
-                    │ Career Guidance │
-                    │    Response     │
-                    └─────────────────┘
+                         ┌────────────────────┐
+                         │        User        │
+                         └──────────┬─────────┘
+                                    │
+                                    ▼
+                         ┌────────────────────┐
+                         │     Streamlit      │
+                         │      Chat UI       │
+                         └──────────┬─────────┘
+                                    │
+                                    ▼
+                         ┌────────────────────┐
+                         │   Conversation     │
+                         │      History       │
+                         └──────────┬─────────┘
+                                    │
+                                    ▼
+                         ┌────────────────────┐
+                         │    System Prompt   │
+                         │   Career Mentor    │
+                         └──────────┬─────────┘
+                                    │
+                                    ▼
+                         ┌────────────────────┐
+                         │  GitHub Copilot    │
+                         │       SDK          │
+                         └──────────┬─────────┘
+                                    │
+                                    ▼
+                         ┌────────────────────┐
+                         │       GPT-5.4      │
+                         └──────────┬─────────┘
+                                    │
+                                    ▼
+                         ┌────────────────────┐
+                         │  Career Guidance   │
+                         │      Response      │
+                         └────────────────────┘
+```
 
+---
 
+## 📸 Application Preview
 
-📸 Application Preview
-Career Mentor Agent
+### 🏠 Career Mentor Interface
 
-AI Career Guidance
+![Career Mentor Home](screenshots/career-mentor-home.png)
 
-📁 Project Structure
+### 💬 AI Career Guidance
 
+![Career Mentor Response](screenshots/career-mentor-response.png)
+
+---
+
+## 📁 Project Structure
+
+```text
 career-mentor-agent/
 │
-├── app.py
-├── prompts.py
-├── requirements.txt
-├── README.md
-├── .gitignore
+├── 📄 app.py
+├── 📄 prompts.py
+├── 📄 requirements.txt
+├── 📄 README.md
+├── 📄 .gitignore
 │
-└── screenshots/
-    ├── career-mentor-home.png
-    └── career-mentor-response.png
+└── 📁 screenshots/
+    ├── 🖼️ career-mentor-home.png
+    └── 🖼️ career-mentor-response.png
+```
 
-🤖 Agent Capabilities
+### 📄 Main Files
 
-The Career Mentor Agent can help users with:
+| File               | Description                  |
+| ------------------ | ---------------------------- |
+| `app.py`           | Main Streamlit application   |
+| `prompts.py`       | Career Mentor system prompts |
+| `requirements.txt` | Python dependencies          |
+| `.gitignore`       | Files excluded from Git      |
+| `screenshots/`     | Application screenshots      |
 
-Career path exploration
-Skill development planning
-Learning roadmaps
-Certification guidance
-Portfolio project ideas
-Interview preparation
-AI and Machine Learning career guidance
-Technology and skill recommendations
+---
 
-💡 Example Questions
+## 🤖 Agent Capabilities
 
-You can ask the Career Mentor Agent questions such as:
+Career Mentor Agent can assist users with:
 
-What skills should I learn to become a Data Scientist?
+### 🎯 Career Exploration
 
-🎓 Microsoft Frontier Program
+* Career path exploration
+* Technology career comparison
+* AI & Machine Learning career guidance
+* Skill recommendations
 
-This project was developed as part of the Microsoft Frontier Program – Day 4 Agent-a-Thon.
+### 📚 Learning & Development
+
+* Skill development planning
+* Personalized learning roadmaps
+* Course recommendations
+* Certification guidance
+
+### 💻 Portfolio Development
+
+* Portfolio project ideas
+* Python project recommendations
+* AI/ML project suggestions
+* Project-based learning paths
+
+### 🎤 Interview Preparation
+
+* Technical interview preparation
+* Data Science interview questions
+* AI/ML interview preparation
+* Internship preparation
+
+---
+
+## 💡 Example Questions
+
+Try asking the Career Mentor Agent:
+
+> **"What skills should I learn to become a Data Scientist?"**
+
+> **"Create a 6-month roadmap for becoming a Machine Learning Engineer."**
+
+> **"Which Python projects should I build for my portfolio?"**
+
+> **"What certifications are useful for a beginner in AI and Machine Learning?"**
+
+> **"How should I prepare for a Data Science internship interview?"**
+
+---
+
+## 🎓 Microsoft Frontier Program
+
+This project was developed as part of the **Microsoft Frontier Program – Day 4 Agent-a-Thon**.
 
 The project provided hands-on experience with:
 
-AI agent development
-GitHub Copilot SDK
-Python asynchronous programming
-Streamlit application development
-Authentication and secrets management
-Git and GitHub
-Cloud deployment
+* 🤖 AI Agent Development
+* 🔗 GitHub Copilot SDK
+* 🐍 Python Asynchronous Programming
+* 🎨 Streamlit Application Development
+* 🔐 Authentication & Secrets Management
+* 🔧 Git & GitHub
+* ☁️ Cloud Deployment
 
-Create a 6-month roadmap for becoming a Machine Learning Engineer.
+---
 
-Which Python projects should I build for my portfolio?
+## ⚙️ Installation
 
-What certifications are useful for a beginner in AI and Machine Learning?
+### 1️⃣ Clone the Repository
 
-How should I prepare for a Data Science internship interview?
-
-⚙️ Installation
-1. Clone the repository
+```bash
 git clone https://github.com/alimurtaza9dev-ctrl/career-mentor-agent.git
 cd career-mentor-agent
-2. Create a virtual environment
+```
+
+### 2️⃣ Create a Virtual Environment
+
+```bash
 python -m venv .venv
-3. Activate the virtual environment
-Windows
+```
+
+### 3️⃣ Activate the Virtual Environment
+
+**Windows:**
+
+```bash
 .venv\Scripts\activate
-4. Install dependencies
+```
+
+### 4️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
-5. Run the application
+```
+
+### 5️⃣ Run the Application
+
+```bash
 streamlit run app.py
+```
 
-The application will open in your browser.
+The application will open automatically in your browser.
 
-🔐 Configuration
+---
 
-The application uses GitHub Copilot authentication.
+## 🔐 Configuration
 
-For cloud deployment, configure the required authentication credential through the deployment platform's Secrets management system.
+The application uses **GitHub Copilot authentication**.
+
+For local development, configure the required authentication credential according to the authentication method used by the application.
+
+For cloud deployment, configure credentials through the deployment platform's **Secrets Management** system.
 
 Example:
 
+```text
 COPILOT_GITHUB_TOKEN = "YOUR_TOKEN"
+```
 
-🌐 Deployment
+> ⚠️ **Never commit authentication tokens, API keys, passwords, or other sensitive credentials to GitHub.**
 
-The application is deployed using Streamlit Community Cloud.
+---
 
-The deployment process includes:
+## 🌐 Deployment
 
-GitHub repository
-Streamlit application
-Python dependencies
-Secure authentication through Streamlit Secrets
+The application is deployed using **Streamlit Community Cloud**.
 
-Never commit authentication tokens, API keys, passwords, or other sensitive credentials to GitHub.
+### Deployment Flow
 
-🔮 Future Improvements
+```text
+GitHub Repository
+       │
+       ▼
+Streamlit Community Cloud
+       │
+       ▼
+Python Dependencies
+       │
+       ▼
+Secure Secrets
+       │
+       ▼
+Live Career Mentor Agent
+```
 
-Potential future enhancements include:
+The deployment uses:
 
-📄 Resume analysis
-💼 Job recommendation features
-📊 Personalized skill-gap analysis
-🎤 Mock interview sessions
-📈 Career progress tracking
-🎯 More specialized career paths
-🔗 Integration with job platforms
-👤 Personalized user profiles
-📚 Learning Outcomes
+* 📦 GitHub repository
+* ☁️ Streamlit Community Cloud
+* 🐍 Python dependencies
+* 🔐 Streamlit Secrets
+* 🤖 GitHub Copilot authentication
 
-Through this project, I gained practical experience in:
+---
 
-Building AI-powered applications
-Working with the GitHub Copilot SDK
-Integrating AI models into Python applications
-Managing asynchronous Python code
-Building interactive Streamlit interfaces
-Managing authentication and secrets
-Using Git and GitHub
-Deploying applications to the cloud
-👨‍💻 Author
+## 🔮 Future Improvements
 
-Ali Murtaza
+Planned or potential improvements include:
 
-Computer Science Student | AI & Data Science Enthusiast
+* 📄 **Resume Analysis**
+* 💼 **Job Recommendation System**
+* 📊 **Personalized Skill-Gap Analysis**
+* 🎤 **Mock Interview Sessions**
+* 📈 **Career Progress Tracking**
+* 🎯 **Specialized Career Paths**
+* 🔗 **Job Platform Integration**
+* 👤 **Personalized User Profiles**
+* 📚 **Learning Resource Recommendations**
 
-GitHub: @alimurtaza9dev-ctrl
+---
 
-🙏 Acknowledgment
+## 📚 Learning Outcomes
 
-Developed as part of the Microsoft Frontier Program – Day 4 Agent-a-Thon.
+Building this project provided practical experience with:
 
-⭐ If you find this project useful, consider giving it a star!
+### 🤖 Artificial Intelligence
+
+* Building AI-powered applications
+* Integrating AI models into Python applications
+* Designing system prompts
+* Developing conversational AI agents
+
+### 🐍 Python
+
+* Asynchronous programming with `asyncio`
+* Application architecture
+* Dependency management
+* Environment configuration
+
+### 🎨 Application Development
+
+* Building interactive Streamlit interfaces
+* Managing conversation state
+* Creating chat-based applications
+
+### 🔧 Development & Deployment
+
+* Git and GitHub
+* Authentication and secrets management
+* Cloud deployment
+* Project documentation
+
+---
+
+## 👨‍💻 Author
+
+### Ali Murtaza
+
+**Computer Science Student | AI & Data Science Enthusiast**
+
+🔗 **GitHub:** [@alimurtaza9dev-ctrl](https://github.com/alimurtaza9dev-ctrl)
+
+---
+
+## 🙏 Acknowledgment
+
+Developed as part of the **Microsoft Frontier Program – Day 4 Agent-a-Thon**.
+
+Special thanks to the program for providing hands-on experience in AI agent development, GitHub Copilot SDK, Python, Streamlit, and cloud deployment.
+
+---
+
+## ⭐ Support
+
+If you find this project useful, consider giving the repository a ⭐ **star** on GitHub!
+
+---
+
+<p align="center">
+  Built with ❤️ using Python, Streamlit & GitHub Copilot SDK
+</p>
