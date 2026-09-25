@@ -93,3 +93,16 @@ career-mentor-agent/
 └── screenshots/
     ├── career-mentor-home.png
     └── career-mentor-response.png
+
+🤖 Agent Capabilities
+
+The Career Mentor Agent can help users with:
+
+Career path exploration
+Skill development planning
+Learning roadmaps
+Certification guidance
+Portfolio project ideas
+Interview preparation
+AI and Machine Learning career guidance
+Technology and skill recommendations
