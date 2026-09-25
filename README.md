@@ -134,3 +134,19 @@ Which Python projects should I build for my portfolio?
 What certifications are useful for a beginner in AI and Machine Learning?
 
 How should I prepare for a Data Science internship interview?
+
+⚙️ Installation
+1. Clone the repository
+git clone https://github.com/alimurtaza9dev-ctrl/career-mentor-agent.git
+cd career-mentor-agent
+2. Create a virtual environment
+python -m venv .venv
+3. Activate the virtual environment
+Windows
+.venv\Scripts\activate
+4. Install dependencies
+pip install -r requirements.txt
+5. Run the application
+streamlit run app.py
+
+The application will open in your browser.
