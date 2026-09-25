@@ -150,3 +150,15 @@ pip install -r requirements.txt
 streamlit run app.py
 
 The application will open in your browser.
+
+🔐 Configuration
+
+The application uses GitHub Copilot authentication.
+
+For cloud deployment, configure the required authentication credential through the deployment platform's Secrets management system.
+
+Example:
+
+COPILOT_GITHUB_TOKEN = "YOUR_TOKEN"
+
+Never commit authentication tokens, API keys, passwords, or other sensitive credentials to GitHub.
